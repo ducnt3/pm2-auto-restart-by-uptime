@@ -17,7 +17,7 @@ $ pm2 set pm2-auto-restart-by-uptime:interval 60000
 
 ## Configure Max uptime (default 3600000ms)
 
-$ pm2 set pm2-auto-restart-by-uptime:interval 60000
+$ pm2 set pm2-auto-restart-by-uptime:maxUptimeMS 60000
 ```
 
 # License
