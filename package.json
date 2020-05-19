@@ -1,0 +1,24 @@
+{
+  "name": "pm2-auto-restart-by-uptime",
+  "version": "1.0.0",
+  "description": "PM2 module to auto restart applications by uptime",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pmx": "latest",
+    "pm2": "2.x",
+    "async": "*",
+    "debug": "*"
+  },
+  "apps": [
+    {
+      "script": "app.js",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "merge_logs": true
+    }
+  ],
+  "author": "Duc Nguyen",
+  "license": "ISC"
+}
